@@ -1,7 +1,7 @@
 var class_h_d_private_key =
 [
     [ "HDPrivateKey", "class_h_d_private_key.html#af478c0e66b0ea000b639bed13edff2fc", null ],
-    [ "HDPrivateKey", "class_h_d_private_key.html#a59476ed9c50665182ef801cb5174f158", null ],
+    [ "HDPrivateKey", "class_h_d_private_key.html#a542278fe99d7292fd6d2c669bf2afd74", null ],
     [ "HDPrivateKey", "class_h_d_private_key.html#a6ab28889ba8feae95c52aa7b6a182c4f", null ],
     [ "HDPrivateKey", "class_h_d_private_key.html#ad968ab7d54b877d8a0933d39d1a8ebe1", null ],
     [ "HDPrivateKey", "class_h_d_private_key.html#a4d630876c5c28a05674d7892c703f02f", null ],
@@ -9,6 +9,9 @@ var class_h_d_private_key =
     [ "address", "class_h_d_private_key.html#a043dd232b0d78c6886c3af972fb30d79", null ],
     [ "address", "class_h_d_private_key.html#a26e7b88f136ba5cfea737a0988a49a46", null ],
     [ "child", "class_h_d_private_key.html#a4c5d41c9b135cbf7b13ddebdc93db45f", null ],
+    [ "derive", "class_h_d_private_key.html#aeb59ca28eb761ffb8a218c00976034b6", null ],
+    [ "derive", "class_h_d_private_key.html#a162b4b55e5da30462feaf7a2bbcaec1c", null ],
+    [ "fingerprint", "class_h_d_private_key.html#a0a0701428bcfe973585e399dd48ceb2d", null ],
     [ "from_str", "class_h_d_private_key.html#a7a40df0de1dad38d61fdb5c6846ae6be", null ],
     [ "from_stream", "class_h_d_private_key.html#ac6e087d032032a4516c37352e7a918be", null ],
     [ "fromMnemonic", "class_h_d_private_key.html#a210ccc24179b8ee8f979d0c58325b114", null ],
@@ -18,6 +21,7 @@ var class_h_d_private_key =
     [ "hardenedChild", "class_h_d_private_key.html#a0439c44f6c3612b0d4ce84bf0701c377", null ],
     [ "init", "class_h_d_private_key.html#ae2fbee266dc1a3a2698e19ad2ff15103", null ],
     [ "length", "class_h_d_private_key.html#a108be674fdfd26cd776405a09dd4a42d", null ],
+    [ "publicKey", "class_h_d_private_key.html#aa09f2256522f7432c2cd5442d4a9a3e6", null ],
     [ "stringLength", "class_h_d_private_key.html#a6d3b13230ab0fff20276bb28b9e6c9ba", null ],
     [ "to_bytes", "class_h_d_private_key.html#a2987293400aebe0998a20ef7c4c40ed0", null ],
     [ "to_str", "class_h_d_private_key.html#aed24b78b6919d8b6c005355b17185f8a", null ],
@@ -29,7 +33,7 @@ var class_h_d_private_key =
     [ "chainCode", "class_h_d_private_key.html#a029e2a9722b5fcde748ffca763e81a46", null ],
     [ "childNumber", "class_h_d_private_key.html#ae607623a2e66b075cbcb7fca79d936f4", null ],
     [ "depth", "class_h_d_private_key.html#a716913c9d866280ae96d234c8b8cfd77", null ],
-    [ "fingerprint", "class_h_d_private_key.html#aa22b455e15b06ee93fac7c38a12798cd", null ],
+    [ "parentFingerprint", "class_h_d_private_key.html#a7d2322da56b6e83817a08756b5885f62", null ],
     [ "prefix", "class_h_d_private_key.html#a0ea9dd2cfb76e21394ab122dd9d71a2d", null ],
-    [ "type", "class_h_d_private_key.html#a5e2074c1917daf09d5701a8e3ae144a6", null ]
+    [ "type", "class_h_d_private_key.html#ad7096455631ef6f8d4e1cea3bb71d09f", null ]
 ];

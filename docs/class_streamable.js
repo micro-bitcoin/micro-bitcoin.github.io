@@ -13,8 +13,12 @@ var class_streamable =
     [ "serialize", "class_streamable.html#aa06a31f46e0ea0651367b727f7c4f371", null ],
     [ "serialize", "class_streamable.html#a0d55cf0d0c5b6ec8ccf96738ba02afe6", null ],
     [ "serialize", "class_streamable.html#a4186e60ebb2fa44ba6f5e91fdc94f076", null ],
+    [ "setStatus", "class_streamable.html#a28df25a028c7c2fcb56dda9d5216d53a", null ],
     [ "stringLength", "class_streamable.html#ab5af65d938b14715bc2ccf27213d6237", null ],
     [ "to_str", "class_streamable.html#af711673d9a98288e9063daebb455bbab", null ],
     [ "to_stream", "class_streamable.html#a28f31cde31421a07bbf483c95dd7b56a", null ],
+    [ "ParseStream", "class_streamable.html#ac66807effda96e3721df063f0ce3e8bd", null ],
+    [ "SerializeStream", "class_streamable.html#a00bc939ee5332fc20e9beda37d0aa360", null ],
+    [ "bytes_parsed", "class_streamable.html#a5daa3a9e2dbab5376b2512b9015c6d20", null ],
     [ "status", "class_streamable.html#aa41ab41099dd9b25b8d67442f66fdb96", null ]
 ];

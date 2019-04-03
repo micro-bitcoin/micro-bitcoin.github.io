@@ -21,7 +21,6 @@ var class_e_c_point =
     [ "sec", "class_e_c_point.html#a252566a85c346061e6c48d6e34364291", null ],
     [ "stringLength", "class_e_c_point.html#a95e636de7dc606ed753e7fdd786f1f82", null ],
     [ "to_stream", "class_e_c_point.html#a81807b1efdc1b70f21c4e4fe4de11033", null ],
-    [ "bytes_parsed", "class_e_c_point.html#a5cfcd212b294beab39f1ec2ff785ea73", null ],
     [ "compressed", "class_e_c_point.html#abe07da886963bb3f66da29124f22954d", null ],
     [ "point", "class_e_c_point.html#ae2332d236ba1dc00938ba8a3eecd6cc8", null ]
 ];

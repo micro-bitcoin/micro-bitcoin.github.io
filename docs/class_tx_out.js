@@ -1,19 +1,16 @@
 var class_tx_out =
 [
     [ "TxOut", "class_tx_out.html#a1580dff4ad7dd739d34df3f864650d09", null ],
-    [ "TxOut", "class_tx_out.html#af64b3af6e109237e797e7225250f338a", null ],
-    [ "TxOut", "class_tx_out.html#a09da748250461d1d6b0e3593e2987014", null ],
-    [ "TxOut", "class_tx_out.html#ab3aeb90e2def26dacce000714701f5cd", null ],
-    [ "TxOut", "class_tx_out.html#a2e3445826ca69fae5fd03194f803faf0", null ],
-    [ "TxOut", "class_tx_out.html#a4b8090cc2216e4d2fe481e3ea9a097d0", null ],
-    [ "address", "class_tx_out.html#a3d4a81721a6b59b97cec4cdd59b9ddbf", null ],
-    [ "address", "class_tx_out.html#a89a6ff6581e34b62c75b02b996977cef", null ],
-    [ "length", "class_tx_out.html#a6583cdf0885192fbc836f39db919764c", null ],
-    [ "operator=", "class_tx_out.html#ae0ace5e5ffd6bec69a45526db0486c2a", null ],
-    [ "parse", "class_tx_out.html#a683d5dfb3f4b02a614f617e14b7c58ef", null ],
-    [ "parse", "class_tx_out.html#a920740b25706fcde3be35a02c35aecea", null ],
-    [ "serialize", "class_tx_out.html#a4122196fb643bc557407dc638cc42acd", null ],
-    [ "serialize", "class_tx_out.html#a3c66c9e49d0941e7953572b0158bbb68", null ],
+    [ "TxOut", "class_tx_out.html#a1f4cc35963114992cd785f33c4ddea03", null ],
+    [ "TxOut", "class_tx_out.html#ae23e1e358495768d66fd63361d720f55", null ],
+    [ "TxOut", "class_tx_out.html#addb1435ee9e7b5650bfcc63ee10700c7", null ],
+    [ "TxOut", "class_tx_out.html#a92127da0bc9cdf153b3568675e610a9a", null ],
+    [ "address", "class_tx_out.html#abf4fb0ffcc1fff6ae34e3bd74a596be8", null ],
+    [ "address", "class_tx_out.html#a1f95091133b7001a562cab14933c2fe5", null ],
+    [ "btcAmount", "class_tx_out.html#aa3931d2a3396892c739dfa3a7a530957", null ],
+    [ "from_stream", "class_tx_out.html#ac6ab36c84f818dc042596cfea4531b4c", null ],
+    [ "length", "class_tx_out.html#a1954afff7ee0a262184068e302f2c22f", null ],
+    [ "to_stream", "class_tx_out.html#aacae5ffd56a22cc14ef5f547eaa6b4c1", null ],
     [ "amount", "class_tx_out.html#af46c436ce857fb3bdad6e498d4d0a560", null ],
-    [ "scriptPubKey", "class_tx_out.html#a60e0991dbf027b13b8ec37a288d50f30", null ]
+    [ "scriptPubkey", "class_tx_out.html#a9ca78fbf5d05f08380b8f957fc965ece", null ]
 ];

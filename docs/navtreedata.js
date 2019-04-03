@@ -24,7 +24,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "uBitcoin", "index.html", [
-    [ "uBitcoin - library for embedded systems", "index.html", null ],
+    [ "Micro-Bitcoin", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -39,7 +39,9 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
+        [ "Functions", "globals_func.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ]
       ] ]
     ] ]
   ] ]
@@ -48,7 +50,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_base_classes_8h_source.html",
-"class_s_h_a512.html#a29e8fe654a8ed75f5ca320940627aadd"
+"class_public_key.html#a8e926fd5fe2659b757c8582def5e4aad",
+"struct_p_s_b_t_output_metadata.html#a49264684c4b3aace5b0c99d5d6d8e9f8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

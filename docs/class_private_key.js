@@ -20,7 +20,6 @@ var class_private_key =
     [ "segwitAddress", "class_private_key.html#aec99707d8d6326c41d55b18293500a13", null ],
     [ "setSecret", "class_private_key.html#af3f06c94be1e68ed859590645070ca4b", null ],
     [ "sign", "class_private_key.html#a271f14e69dc0875c82c5d4e62a5d6e8b", null ],
-    [ "sign_bin", "class_private_key.html#a6aa2ac4b042fe428242656e46ff16fc7", null ],
     [ "stringLength", "class_private_key.html#aa238a12bbf9685dabbba1cc2ba1d3104", null ],
     [ "to_str", "class_private_key.html#ac337e5c8c929eb7baba5fad9fd90ef72", null ],
     [ "wif", "class_private_key.html#aa3d7da8d0e2771e5677e125773ff9732", null ],

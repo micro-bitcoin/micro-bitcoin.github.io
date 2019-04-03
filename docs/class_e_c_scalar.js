@@ -24,10 +24,13 @@ var class_e_c_scalar =
     [ "operator-=", "class_e_c_scalar.html#ae4228ed2f2914ddb9dc6037d706d85ef", null ],
     [ "operator/", "class_e_c_scalar.html#a54be362e35e8ee27fa6440e061dbe95a", null ],
     [ "operator/=", "class_e_c_scalar.html#a52959a9084d7626447716d32d5ad81f0", null ],
+    [ "operator<", "class_e_c_scalar.html#adee42a26fc0ecf4f93293e5cfefbc055", null ],
+    [ "operator<=", "class_e_c_scalar.html#a384ce0aa131ffdfb560f770252c765d6", null ],
     [ "operator==", "class_e_c_scalar.html#a8af5bb0dbe4b014df73bee6beb0fc63a", null ],
+    [ "operator>", "class_e_c_scalar.html#ae364448da844f94e4edd123a311243ad", null ],
+    [ "operator>=", "class_e_c_scalar.html#abc508955cde69e153ab2e97cddca5a6a", null ],
     [ "reset", "class_e_c_scalar.html#a4abfbc28a1843951528ba318e9a4f8ee", null ],
     [ "setSecret", "class_e_c_scalar.html#acba7ee560fb8724e5b1f93bfe2cd47b7", null ],
     [ "to_stream", "class_e_c_scalar.html#aedbb3c5dcfab4081488e7bf26bc2bb85", null ],
-    [ "bytes_parsed", "class_e_c_scalar.html#a966a8489c8bc151cb4824c1cd916d18f", null ],
     [ "num", "class_e_c_scalar.html#a332f80c3435a35a64eaeae788a0349db", null ]
 ];

@@ -11,7 +11,7 @@ var class_public_key =
     [ "legacyAddress", "class_public_key.html#a5e590097d141df28ed589e34fe2a0812", null ],
     [ "nestedSegwitAddress", "class_public_key.html#acd46dbd3896bdabcfb3690f380cafd72", null ],
     [ "nestedSegwitAddress", "class_public_key.html#a8e926fd5fe2659b757c8582def5e4aad", null ],
-    [ "script", "class_public_key.html#a37f4b87aa5b85610fdcb5689e865736e", null ],
+    [ "script", "class_public_key.html#a1aaf3b36bbbab241ce35f24b4fb16cae", null ],
     [ "segwitAddress", "class_public_key.html#a3bba99e45a52bbc1d497a139ab4b5ad7", null ],
     [ "segwitAddress", "class_public_key.html#ae01291e4a50eaf562e77f8f9defb227c", null ],
     [ "verify", "class_public_key.html#ab0651f162c47d019e5751219cd1aa0e5", null ]
