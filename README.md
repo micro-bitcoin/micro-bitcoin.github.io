@@ -5,3 +5,5 @@ It provides a collection of convenient classes for Bitcoin and general elliptic 
 This library is built on top of [trezor-crypto](https://github.com/trezor/trezor-crypto) library. API is inspired by [Jimmy's](https://github.com/jimmysong/) Porgramming Blockchain class and book.
 
 Documentation: [https://micro-bitcoin.github.io/docs/](https://micro-bitcoin.github.io/docs/).
+
+Source code: [https://github.com/micro-bitcoin/uBitcoin](https://github.com/micro-bitcoin/uBitcoin)
