@@ -1,9 +1,9 @@
 <!-- docs/_sidebar.md -->
 
-* [Overview](../readme.md)
-* [Tutorial](../tutorial/readme.md)
+* [Overview](../README.md)
+* [Tutorial](../tutorial/README.md)
 * **API docs**
-  * [Basics](readme.md)
+  * [Basics](README.md)
   * [Individual keys](keys.md)
   * [Scripts](scripts.md)
   * [Transactions](transaction.md)
@@ -12,4 +12,4 @@
   * [Electrum](electrum.md)
   * [Hash functions](hash.md)
   * [Conversion functions](conversion.md)
-* [Recepies](../recepies/readme.md)
+* [Recepies](../recepies/README.md)

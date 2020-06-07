@@ -58,4 +58,4 @@ Fee: 318 sat
 
 That's it, we have a minimal hardware wallet!
 
-From now you can go to the [API documentation](../api/readme.md) or checkout our collection of [recepies](../recepies/readme.md) for some common use-cases. Have fun :)
+From now you can go to the [API documentation](../api/README.md) or checkout our collection of [recepies](../recepies/README.md) for some common use-cases. Have fun :)

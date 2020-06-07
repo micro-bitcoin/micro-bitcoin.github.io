@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [Overview](/readme.md)
-* [Tutorial](tutorial/readme.md)
-* [Recepies](recepies/readme.md)
-* [API docs](api/readme.md)
+* [Overview](/README.md)
+* [Tutorial](tutorial/README.md)
+* [Recepies](recepies/README.md)
+* [API docs](api/README.md)

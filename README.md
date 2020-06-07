@@ -9,7 +9,7 @@ We use elliptic curve implementation from [trezor-crypto](https://github.com/tre
 
 ## Documentation
 
-Check out our [tutorial](tutorial/readme.md) where we write a minimal hardware wallet, or browse the [API docs](api/readme.md). We also have a collection of [recepies](recepies/readme.md) for some common use-cases.
+Check out our [tutorial](tutorial/README.md) where we write a minimal hardware wallet, or browse the [API docs](api/README.md). We also have a collection of [recepies](recepies/README.md) for some common use-cases.
 
 ## Alternative libraries
 
@@ -89,4 +89,4 @@ tx.sign(hd);
 Serial.println(tx.toBase64());
 ```
 
-Ready for more? Check out the [tutorial](tutorial/readme.md) and start writing your very own hardware wallet!
+Ready for more? Check out the [tutorial](tutorial/README.md) and start writing your very own hardware wallet!
