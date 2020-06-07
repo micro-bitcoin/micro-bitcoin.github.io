@@ -9,5 +9,5 @@
   * [Importing to Bitcoin Core](4_bitcoin_core.md)
   * [PSBT transaction](5_psbt.md)
   * [Change detection](6_change.md)
-* [Recepies](../recepies/README.md)
 * [API docs](../api/README.md)
+* [Recepies](../recepies/README.md)

@@ -1,13 +1,15 @@
 <!-- docs/_sidebar.md -->
 
 * [Overview](../README.md)
-* **Tutorial**
-  * [Overview]()
-  * [Recovery phrases](1_recovery_phrase.md)
-  * [HD wallets](2_hdwallet.md)
-  * [Addresses](3_addresses.md)
-  * [Importing to Bitcoin Core](4_bitcoin_core.md)
-  * [PSBT transaction](5_psbt.md)
-  * [Change detection](6_change.md)
-* [Recepies](../recepies/README.md)
+* [Tutorial](../tutorial/README.md)
 * [API docs](../api/README.md)
+* **Recepies**
+  * [Overview](README.md)
+  * **Watch only wallets**
+  * [Bitcoin Core](bitcoincore.md)
+  * [Electrum](electrum.md)
+  * [Specter-Desktop](specter.md)
+  * **Advanced stuff**
+  * [Multisignature addresses](multisig.md)
+  * [Change verification](change.md)
+  * [Custom scripts](custom_scripts.md)
