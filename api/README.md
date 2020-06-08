@@ -39,6 +39,7 @@ But `PublicKey` doesn't have a human-readable for, so we use a hex-encoded strin
 
 ```cpp
 PublicKey pub("031f3ca913f17ad79cfbc5717c0bc000b3d93cdb71bbe4366cff86aa70eeafd3b8");
+// assignmeng like pub = "031..." will not work here.
 ```
 
 If we know we gonna need a global class instance we can create it without any parameters and then call `.parse()` function when we want to change it. For example, a global root key:
@@ -100,16 +101,16 @@ Notice that we use a pointers here: `&Signet` and `&Testnet`.
 
 ## Classes overview
 
-These classes are available when you `#include "Bitcoin.h"` header.
+First, classes that are available when you `#include "Bitcoin.h"` header:
 
-The most important classes are:
+- [`PrivateKey`](keys.md#privatekey), [`PublicKey`](keys.md#publickey) and [`Signature`](keys.md#signature) are described in the [Individual keys and signature](keys.md) section.
+- [`HDPrivateKey`](hdwallets.md#hdprivatekey), [`HDPublicKey`](hdwallets.md#hdpublickey) and [mnemonic functions](hdwallets.md#mnemonic) are in [HD wallets](hdwallets.md) section.
+- [`Script`](scripts.md) - how to work with Bitcoin Scripts
+- [`Transaction`](transaction.md) - raw Bitcoin transactions
 
-- `HDPrivateKey` and `HDPublicKey` - HD wallets and mnemonic (bip-32, bip-39)
-- `Script` - how to work with Bitcoin Scripts
-- `Transaction` - raw Bitcoin transactions
+Some functionality is moved to separate header files:
 
-Other classes that you probably don't want to use directly:
-
-- `ECPoint` and `ECScalar` - elliptic curve math
-- `PrivateKey` and `PublicKey` - individual keys
-- `Signature`
+- [`PSBT`](psbt.md) - how to work with PSBT transactions, requires to include `"PSBT.h"`
+- [`ElectrumTx`](electrum.md) - unsigned transaction format used in Electrum Wallet, requires `"Electrum.h"` header.
+- [Conversion functions](conversion.md) - hex, base58, bech32, base64 and base43 defined in `"Conversion.h"`
+- [Hash functions](hash.md) - sha256, sha512, rmd160 and hmac functions defined in `"Hash.h"`
