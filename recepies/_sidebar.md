@@ -7,6 +7,7 @@
   * [Overview](README.md)
   * **Watch only wallets**
   * [Bitcoin Core](bitcoincore.md)
+  * [HWI](hwi.md)
   * [Electrum](electrum.md)
   * [Specter-Desktop](specter.md)
   * **Advanced stuff**

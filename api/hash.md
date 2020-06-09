@@ -1,6 +1,6 @@
 # Hashes
 
-Header: `#include "Hash.h"`
+Requires: `#include "Hash.h"`
 
 We don't include `sha1` function because it causes name collisions with other libraries.
 
@@ -62,7 +62,7 @@ size_t outLen = sha256Hmac(key, keylen, msg, msglen, arr);
 Serial.println(toHex(arr, outLen));
 
 // sha512 outputs 64 bytes
-size_t outLen = sha512Hmac(key, keylen, msg, msglen, arr);
+outLen = sha512Hmac(key, keylen, msg, msglen, arr);
 // print it in hex
 Serial.println(toHex(arr, outLen));
 ```

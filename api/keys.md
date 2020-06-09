@@ -1,6 +1,6 @@
 # Individual keys and signatures
 
-Requres `#include "Bitcoin.h"`
+Requires: `#include "Bitcoin.h"`
 
 Three main classes for elliptic curve math:
 
