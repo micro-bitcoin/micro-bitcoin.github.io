@@ -104,7 +104,7 @@ Notice that we use a pointers here: `&Signet` and `&Testnet`.
 First, classes that are available when you `#include "Bitcoin.h"` header:
 
 - [`PrivateKey`](keys.md#privatekey), [`PublicKey`](keys.md#publickey) and [`Signature`](keys.md#signature) are described in the [Individual keys and signature](keys.md) section.
-- [`HDPrivateKey`](hdwallets.md#hdprivatekey), [`HDPublicKey`](hdwallets.md#hdpublickey) and [mnemonic functions](hdwallets.md#mnemonic) are in [HD wallets](hdwallets.md) section.
+- [`HDPrivateKey`](hdwallet.md#hdprivatekey), [`HDPublicKey`](hdwallet.md#hdpublickey) and [mnemonic functions](hdwallet.md#mnemonic) are in [HD wallets](hdwallet.md) section.
 - [`Script`](scripts.md) - how to work with Bitcoin Scripts
 - [`Transaction`](transaction.md) - raw Bitcoin transactions
 
