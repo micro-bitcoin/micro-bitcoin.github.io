@@ -34,8 +34,9 @@ for(int i=0; i<psbt.tx.outputsNumber; i++){
   // check if it is a change output
   if(psbt.txOutsMeta[i].derivationsLen > 0){ // there is derivation path
     // considering only single key for simplicity
-    PublicKey pub = root.derive(der.derivation, der.derivationLen).publicKey();
-    if(pub.segwitAddress() == psbt.tx.txOuts[i].address()){
+    HDPublicKey pub = hd.derive(der.derivation, der.derivationLen).xpub();
+    // as pub is HDPublicKey it will also generate correct address type
+    if(pub.address() == psbt.tx.txOuts[i].address()){
       Serial.print(" (change) ");
     }
   }
