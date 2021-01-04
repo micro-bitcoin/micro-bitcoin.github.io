@@ -9,7 +9,6 @@
   * [Transactions](transaction.md)
   * [HD wallets](hdwallet.md)
   * [PSBT transaction](psbt.md)
-  * [Electrum transaction](electrum.md)
   * [Hash functions](hash.md)
   * [Conversion functions](conversion.md)
 * [Recepies](../recepies/README.md)

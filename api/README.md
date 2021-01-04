@@ -19,8 +19,6 @@ But there are also other headers that have some more stuff:
 // helper functions to convert from and to different encodings:
 // hex, base64, base58, bech32 and base43.
 #include "Conversion.h" 
-// transaction format used in Electrum wallet
-#include "Electrum.h"
 ```
 
 ## Creating class instances
@@ -111,6 +109,5 @@ First, classes that are available when you `#include "Bitcoin.h"` header:
 Some functionality is moved to separate header files:
 
 - [`PSBT`](psbt.md) - how to work with PSBT transactions, requires to include `"PSBT.h"`
-- [`ElectrumTx`](electrum.md) - unsigned transaction format used in Electrum Wallet, requires `"Electrum.h"` header.
 - [Conversion functions](conversion.md) - hex, base58, bech32, base64 and base43 defined in `"Conversion.h"`
 - [Hash functions](hash.md) - sha256, sha512, rmd160 and hmac functions defined in `"Hash.h"`

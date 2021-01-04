@@ -1,6 +1,6 @@
 # Configuring Bitcoin Core
 
-You can use whatever wallet you want to watch your addresses, as soon as it can create PSBT transactions. There is also a minimal support of Electrum transactions, but it is not complete as there is no good documentation on the format.
+You can use whatever wallet you want to watch your addresses, as soon as it can create PSBT transactions.
 
 In this tutorial we will use Bitcoin Core. First we need to create our watch-only wallet, let's call it `watchman`:
 
