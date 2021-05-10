@@ -4,7 +4,7 @@ Requires: `#include "Bitcoin.h"`
 
 Two main classes and mnemonic functions for [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) and [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) standard:
 
-- [`generateMnemonic`](#mnemonic) - mnemonic generation functions
+- [Mnemonic functions](#mnemonic)
 - [`HDPrivateKey`](#hdprivatekey) - extended private key
 - [`HDPublicKey`](#hdpublickey) - extended public key
 
@@ -69,6 +69,12 @@ When external entropy is provided it is hashed using `sha256` hash function and 
 - `generateMnemonic(numWords)` - generates a new mnemonic using RAM-based RNG (gets some entopy from the initial state of the RAM). This RNG is pretty bad so use this function only for testing. In production write your own entropy generation function and provide it to the `generateMnemonic` function.
 - `generateMnemonic(numWords, entropy, entropy_length)` - generates mnemonic from byte array.
 - `generateMnemonic(numWords, string)` - generates mnemonic from the string.
+
+Other mnemonic functions:
+
+- `checkMnemonic(mnemonic)` - checks if mnemonic is valid
+- `mnemonicToEntropy(mnemonic, array, arrayLen)` - converts mnemonic to entropy
+- `mnemonicFromEntropy(array, arrayLen)` - converts entropy to mnemonic
 
 ## HDPrivateKey
 

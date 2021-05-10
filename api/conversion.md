@@ -9,6 +9,8 @@ uint8_t arr[] = {1,2,3,4,5,6};
 size_t len = sizeof(arr);
 // hex conversion
 String hex = toHex(arr, len);
+// binary conversion
+String bin = toBin(arr, len);
 // base58 conversion, without checksum
 String b58 = toBase58(arr, len);
 // base58 conversion, with checksum
@@ -27,6 +29,8 @@ size_t len = sizeof(arr);
 size_t written;
 // from hex
 written = fromHex("0102030405060708", arr, len);
+// from binary
+written = fromBin("100000010000000110000010000000101000001100000011100001000", arr, len);
 // from base58
 written = fromBase58("W7LcTy7", arr, len);
 // from base58 with checksum
