@@ -15,7 +15,7 @@ Whatever method we use let's say we ended up with a looong byte array or string 
 String entropy = "h3iq7fqj3f7yowu3849uqomfiq3984";
 // generating 12 words (first parameter, 24 by default)
 String phrase = generateMnemonic(12, entropy);
-// phrase: habit opera fox human grow relax snow shoulder just knife tail guilt
+// phrase: note upset stairs pupil copy want scorpion hard valid stamp weasel cloud
 Serial.println(phrase);
 ```
 
@@ -30,7 +30,7 @@ uint8_t entropy[] = {
 };
 // just don't forget to pass the length of the data in the array
 String phrase = generateMnemonic(12, entropy, 30);
-// same phrase: habit opera fox human grow relax snow shoulder just knife tail guilt
+// same phrase: note upset stairs pupil copy want scorpion hard valid stamp weasel cloud
 Serial.println(phrase);
 ```
 
@@ -43,7 +43,7 @@ This recovery phrase can be converted to a root extended private key (often also
 HDPrivateKey root(phrase, "");
 // now we can check how it is converted to xprv
 Serial.println(root);
-// xprv9s21ZrQH143K2Y2x3ehUA7JMErX2wPHiXwpciAR28Jsx5NK5Pw8Ured3p1toftWgA3nYxR53LHgZqHBgBUT4DsXFL4xzWr5Dpbr2D6kHfn9
+// xprv9s21ZrQH143K4NF8J6MFGyhxuGyxQpGHF3dsNDRE7eeb7Ke7oToedRqNk59vmqeqwpBCrsFPKTB6te6t9YG3rFLAowdC5Ygu7kPgFwM1cY7
 ```
 
 The passphrase should never be stored on the device, it is an additional protection measure for hardware wallets that don't have strong hardware security.
