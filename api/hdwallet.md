@@ -25,13 +25,15 @@ This is an example how to generate a new recovery phrase, convert it to the root
 String entropy = "h3iq7fqj3f7yowu3849uqomfiq3984";
 // generating 12 words
 String phrase = generateMnemonic(12, entropy);
-// phrase: habit opera fox human grow relax snow shoulder just knife tail guilt
+// phrase: note upset stairs pupil copy want scorpion hard valid stamp weasel cloud
 
 // creating root key from the recovery phrase and some password
 HDPrivateKey root(phrase, "my super secure password");
+// xprv9s21ZrQH143K3yDyvTZzUnGYiNt...8N8YipQSGdyLBcnJFDZeXF2b13N9
+
 // deriving bip-84 account for testnet
 HDPrivateKey bip84 = root.derive("m/84'/1'/0'");
-// vprv9Kry6f86nTrbos4MKfQHJr...oP8TkWZVSgMxkj76mNZncN
+// vprv9Lg1kCgJEUxjCY...a4DY8u5573ZmaMZgcK612W7AGVpE
 
 // deriving bip-49 mainnet account using a derivation array
 uint32_t derivation[] = {
@@ -40,7 +42,7 @@ uint32_t derivation[] = {
     HARDENED_INDEX
 };
 HDPrivateKey bip49 = root.derive(derivation, 3);
-// yprvAJXQ98PxjJZYCNTLQMc4m...Zx8271aXiwv4zTcB4sCZA
+// yprvAK4VjBwvdAqGbx7uCSguwNhRf2...SR6UEVB8BQjdeUMDz2XJSno1yQH3jPh3hiN
 
 // converting private to public key
 HDPublicKey xpub = bip84.xpub();
@@ -50,12 +52,12 @@ HDPublicKey first = xpub.child(0).child(0);
 // address function of the HDPublicKey 
 // will use stored .type and .network:
 Serial.println(first.address());
-// tb1q7k4fudq2ecjtejqgngkv0t9ts4tza4xed2z5zj
+// tb1qj86n7aj2u34a0x7ayr53sz7pvxyl0nm5vkaz79
 
 // but if you convert it to a PublicKey this information is lost
 PublicKey pub = first;
 Serial.println(pub.address());
-// 1PPxwk8cVpRkSYfWFapHALLXchgaKnHMgx
+// 1EJkmwQwDvmRoZ54cV9WJ3ZdoVKBdbABEp
 ```
 
 ## Mnemonic
