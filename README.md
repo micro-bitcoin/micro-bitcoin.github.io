@@ -23,11 +23,11 @@ A few bitcoin libraries:
 
 ## Installation
 
-The library is not listed in the Arduino Library manager yet, but you can download and install it manually.
+Search for `uBitcoin` in Arduino Library Manager and install it.
 
-[Download](https://github.com/micro-bitcoin/uBitcoin/archive/master.zip) the zip file from our [repository](https://github.com/micro-bitcoin/uBitcoin/) and select in Arduino IDE `Sketch` → `Include library` → `Add .ZIP library...`.
+Alternatively, [download](https://github.com/micro-bitcoin/uBitcoin/archive/master.zip) the zip file from our [repository](https://github.com/micro-bitcoin/uBitcoin/) and select in Arduino IDE `Sketch` → `Include library` → `Add .ZIP library...`.
 
-Or clone it into your `Documents/Arduino/libraries` folder:
+Or clone it directly into your `Documents/Arduino/libraries` folder:
 
 ```sh
 git clone https://github.com/micro-bitcoin/uBitcoin.git

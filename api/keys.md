@@ -90,10 +90,11 @@ Serial.println(pk.segwitAddress());
 Serial.println(pk.nestedSegwitAddress());
 ```
 
-To sign a message with the private key pass it's 32-byte hash to the `.sign()` method:
+To sign a message with the private key pass it's 32-byte hash to the `.sign()` method to get ECDSA signature, or `.schnorr_sign()` method to get `SchnorrSignature`:
 
 ```cpp
-Signature sig = pk.sign(msg);
+Signature sig = pk.sign(msghash);
+SchnorrSignature schnorrsig = pk.schnorr_sign(msghash);
 ```
 
 ## PublicKey
@@ -138,15 +139,18 @@ Serial.println(pub.segwitAddress(&Signet));
 Serial.println(pub.nestedSegwitAddress(&Testnet));
 ```
 
-To verify a signature against public key pass a signature and a message to the `.verify()` function:
+To verify a `Signature` against public key pass a signature and a message to the `.verify()` function for ECDSA signature or `.schnorr_verify()` for `SchnorrSignature`:
 
 ```cpp
-if(pub.verify(sig, msg)){
-    // ok, signature is fine
+if(pub.verify(sig, msghash)){
+  // ok, signature is fine
+}
+if(pub.schnorr_verify(schnorrsig, msghash)){
+  // ok, signature is fine
 }
 ```
 
-## Signature
+## ECDSA `Signature`
 
 [ECDSA signature](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) also doesn't have a human-readable form. `DER` format is used for serialization which stands for "Distinguished Encoding Rules".
 
@@ -162,3 +166,7 @@ Signature sig3("304402202cb5f8e23c931e84be602add1e9405bb1833780e92cd8f3cbeee94c7
 ```
 
 As `DER` encoding has a variable length maybe you want to know the length of the signature to allocate enough memory. It can be done using `.length()` method that will return number of bytes required for signature serialization.
+
+## `SchnorrSignature`
+
+Schnorr signature is always encoded as `64` byte array, containing `r` and `s` components. So it's `.length()` method will always return `64`.
