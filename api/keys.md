@@ -6,7 +6,8 @@ Three main classes for elliptic curve math:
 
 - [`PrivateKey`](#privatekey) is a single key that is basically a 32-byte number.
 - [`PublicKey`](#publickey) is a point on the curve defined as `privkey*G` where G is a generator point of our `secp256k1` curve.
-- [`Signaure`](#signature) is a ECDSA signature.
+- [`Signaure`](#ecdsa-signature) is a ECDSA signature.
+- [`SchnorrSignaure`](#schnorrsignature) is a Schnorr signature.
 
 ## Usage example
 
