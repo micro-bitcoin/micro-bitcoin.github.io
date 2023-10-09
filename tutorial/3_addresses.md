@@ -36,6 +36,6 @@ Available networks are: `Mainnet`, `Testnet`, `Regtest` and `Signet`.
 
 We can check that the addresses are derived correctly [here](https://iancoleman.io/bip39/).
 
-If you would want to get a nested segwit address just call `.nestedSegwit()` function.
+If you would want to get a nested segwit address just call `.nestedSegwitAddress()` function.
 
 We can print addresses now, it's time to make Bitcoin Core watching our addresses and create a transaction for us! To the [next part](4_bitcoin_core.md).
